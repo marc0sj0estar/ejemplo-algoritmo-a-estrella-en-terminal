@@ -19,8 +19,8 @@ Cuando consigue obtener un camino lo marcará y mostrará en la terminal.
 Para cambiar el tamaño del laberinto en el archivo Aestrella en la linea 8:
 
 ```
-int tamX = 60;
-int tamY = 80;
+int tamX = 100;
+int tamY = 30;
 ```
 
 La cantidad de obstaculos esta generada usando un generador de números aleatorios.
@@ -28,10 +28,10 @@ Para cambiarlo se debe cambiar la amplitud de números generados y la cantidad d
 
 ```
 int numerosConsideradosObstaculos = 3;
-int amplitudNumerosAleatorios = 9;
+int amplitudNumerosAleatorios = 10;
 ```
 
-Por predeterminado 3 de cada 9 casillas serán obstaculos.
+En este caso 3 de cada 10 casillas serán obstaculos.
 
 > [!CAUTION]
 > Si se colocan demasiados obstaculos es posible de que no exista camino entre los dos puntos (Suele  ocurrir cuando hay mas de 30% de obstaculos).
